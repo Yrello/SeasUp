@@ -6,7 +6,7 @@ SeasUp is very useful and helpful tool for heart diseases dignostics
 ## Features
 * High level of prediction
 * Over than 10 attributes for better classification
-* Using XGBoost for more fast and accurate recognition and prediction
+* Using gradient boosting for more fast and accurate recognition and prediction
 SeasUp has no modular structure, it's a complete project which has only 2 scripts. First for training and second for prediction
 
 ## Tech
