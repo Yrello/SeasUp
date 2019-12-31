@@ -17,3 +17,17 @@ Aline is written in Python3 and uses many third-party libraries to implement neu
 * `XGBoost` - open-source software library which provides a gradient boosting framework
 
 All this technologies provide us stable and good work with our project
+
+## Installation
+SeasUp reqires Python3 to run
+Install the dependencies and clone the repo:
+```
+$ cd seasup
+$ git clone https://github.com/yrello/seasup.git
+```
+Use this:
+```
+$ cd seasup 
+$ pip3 install -r requirements.txt
+```
+to install the reqired components
