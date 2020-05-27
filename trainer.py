@@ -18,7 +18,8 @@ x = x.reshape((-1, 1))'''
 
 
 model = tree.DecisionTreeClassifier(criterion = 'gini')
-x = data.values[:, 0:13]
+x = data.values[:, 0:8]# 1,2,4,5,6,8
+# age,sex,blood pressure,cholestoral,blood sugar,max heart rate
 y = data.values[:,13]
 trainX, testX, trainY, testY = train_test_split(x, y, test_size = 0.3)
 model.fit(trainX, trainY)
@@ -30,3 +31,4 @@ new_model.fit(trainX, trainY)
 r_sq = model.score(testX, testY)
 print('coefficient of determination:', r_sq)
 print('new coef of determination:', new_model.score(testX, testY))
+data.plot(x='age',y='target',style='k--')
